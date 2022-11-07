@@ -1,7 +1,7 @@
-## Lenic
+# Lenic
 
-# About
+## About
 
-# Download
+## Download
 
-# Usage
+## Usage
