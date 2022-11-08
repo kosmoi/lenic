@@ -10,6 +10,7 @@ ANSWER2=$2
 #functions
 
 function rusure() {
+  echo ""
   read -p "Do you want to continue? [Y/n] " RUSURE
     if [ "$RUSURE" = "y" ] || [ "$RUSURE" = "Y" ] || [ "$RUSURE" = "" ]; then
     $COMMAND
@@ -32,7 +33,7 @@ function help() {
 }
 
 # ----- INSTALL FUNCTION ------
-function install() {
+function install2() {
   if [ "$ANSWER2" = "help" ]; then
     echo "lenic $VERSION - install tool"
     echo "Usage: 'lenic install [set of packages]'"; echo ""
@@ -42,39 +43,36 @@ function install() {
     echo " 'basic-tools' - package set containing basic tools"
     echo " 'music-tools' - package set containing programs may needed for music production"
   elif [ "$ANSWER2" = "openbox+" ]; then
-    echo "Installing following packages:"; echo "openbox, tint2, its dependencies and some xfce tools."; echo ""
+    echo "Installing following packages:"; echo "openbox, tint2, its dependencies and some xfce tools."
     COMMAND="apt install openbox tint2 thunar xarchiver mousepad xfce4-appfinder -y"
     rusure
   elif [ "$ANSWER2" = "lxqt-openbox" ]; then
-    echo "Installing following packages:"; echo " lxqt-core, openbox and its dependencies, REMOVING xfwm4 and its dependecies ."; echo ""
+    echo "Installing/REMOVING following packages:"; echo " installing lxqt-core, openbox and its dependencies, REMOVING xfwm4 and its dependecies."
     COMMAND="apt install lxqt-core openbox -y"
     COMMAND2="apt autoremove xfwm4 -y"
     rusure
   elif [ "$ANSWER2" = "basic-tools" ]; then
-    echo "Installing following packages:"; echo " nano, screenfetch, htop and its dependencies."; echo ""
+    echo "Installing following packages:"; echo " nano, screenfetch, htop and its dependencies."
     COMMAND="apt install nano screenfetch htop -y"
     rusure
-  elif [ "$ANSWER" = "music-tools" ]; then
-    echo "Installing following packages:"; echo " jack, qjackctl, audacity, zynaddsubfx, vlc"; echo ""
-    COMMAND="apt install nano screenfetch htop -y"
+  elif [ "$ANSWER2" = "music-tools" ]; then
+    echo "Installing following packages:"; echo " jack, qjackctl, audacity, zynaddsubfx, vlc and its dependencies."
+    COMMAND="apt install jackd qjackctl audacity zynaddsubfx vlc -y"
     rusure
   else
-    echo "Try 'install help' for more information"
+    echo "Try 'lenic install help' for more information"
   fi
 }
 
 function update() {
-  echo "Get security other updates for your system"
-    read -p "Do you want to continue? [Y/n]" ANSWER3
-    if [ "$ANSWER3" = "y" ] || [ "$ANSWER3" = "Y" ] || [ "$ANSWER3" = "" ]; then
-    apt update -y && apt upgrade -y
-    else
-    echo "...operation canceled"
-    fi
+  echo "Get security updates and may some other updates for your system."
+  COMMAND="apt update -y"
+  COMMAND2="apt upgrade -y"
+  rusure
 }
 
 function upgrade() {
-  echo "[upgrade tool in progress] as of 2022-11-07"
+  echo "upgrade tool in progress as of 2022-11-08"
 }
 
 
@@ -88,9 +86,9 @@ function about() {
   echo "Creator: kosmoi.github.io"
   echo "Website: kosmoi.github.io/lenic"
   echo "License: kosmoi.github.io/license"
-  echo "Description: Lenic (which stands for 'little executable nonsence interactive console') is a bash script, which was made for handling a debian system more easily."
+  echo "Description: Lenic (which stands for 'little executable nonsence interactive console') is a tool, which was made for handling debian system more easily."
   echo ""
-  echo "kosmoi 2022"
+  echo "released on 2022-11-08"
 }
 
 
@@ -98,7 +96,7 @@ function checkinput() {
   if [ "$ANSWER1" = "help" ]; then
     help
   elif [ "$ANSWER1" = "install" ]; then
-    install
+    install2
   elif [ "$ANSWER1" = "update" ]; then
     update
   elif [ "$ANSWER1" = "upgrade" ]; then
@@ -113,20 +111,3 @@ function checkinput() {
 # Program
 
 checkinput
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
