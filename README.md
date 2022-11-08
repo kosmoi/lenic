@@ -11,7 +11,6 @@ Lenic is a command line tool for debian systems, which offers some commands doin
 - [ ] versions for other distros (LinuxMint, Ubuntu)
 
 ## Download
-
 ### Debian
 
 I recommend using the DEB-Version of Lenic.
