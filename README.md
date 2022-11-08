@@ -12,6 +12,8 @@ Lenic is a command line tool for debian systems, which offers some commands doin
 
 ## Download
 
+### Debian
+
 I recommend using the DEB-Version of Lenic.
 For installing the deb-version, simply download the current .deb-file with
 
