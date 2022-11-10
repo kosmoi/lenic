@@ -2,8 +2,7 @@
 
 ## About
 
-Lenic is a command line tool for debian systems, which offers some commands doing work for you, providing following features (unchecked in progress).
-Lenic stands for "little executable nonsence interactive console".
+Lenic ,which stands for "little executable nonsence interactive console" is a command line tool for debian systems, which offers some commands doing work for you, providing following features (unchecked in progress).
 
 - [x] Installing set of packages
 - [x] Update your system (get security updates and some others)
