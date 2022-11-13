@@ -6,6 +6,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 
 - [x] Installing set of packages
 - [x] Update your system (get security updates and some others)
+- [x] create a template folder for building deb packages
 - [ ] Upgrade your system to the next debian release, using just one command
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
