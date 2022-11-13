@@ -15,7 +15,8 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 ### Debian
 
 I recommend using the DEB-Version of Lenic.
-For installing the deb-version, first open a terminal and simply type these three commands.
+For installing the deb-version, first open a terminal and simply type these three commands one after another.
+
 First this one to download the deb-file:
 
 `wget https://github.com/kosmoi/lenic/releases/download/v.0.1.2-1/lenic_0.1.2-1_all.deb`
