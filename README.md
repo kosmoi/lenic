@@ -18,7 +18,7 @@ I recommend using the DEB-Version of Lenic.
 For installing the deb-version, first open a terminal and simply type these three commands.
 First this one to download the deb-file:
 
-`wget https://github.com/kosmoi/lenic/releases/download/v0.1/lenic_0.1_all.deb`
+`wget https://github.com/kosmoi/lenic/releases/download/v.0.1.2-1/lenic_0.1.2-1_all.deb`
 
 and then install it with executing
 
