@@ -20,7 +20,7 @@ For installing the deb-version, first open a terminal and simply type these thre
 
 First this one to download the deb-file:
 
-`wget https://github.com/kosmoi/lenic/releases/download/v.0.1.2-1/lenic_0.1.2-1_all.deb`
+`wget http://kosmoi.github.io/lenic_0.1.2-1_all.deb`
 
 and then install it with executing
 
