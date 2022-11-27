@@ -12,6 +12,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [ ] Upgrade your system to the next debian release, using just one command -- already as experimental feature available
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
+- [ ] GUI with GTK3
 
 ## Download
 ### Debian
