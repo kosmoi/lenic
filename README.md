@@ -26,11 +26,11 @@ First this one to download the deb-file:
 
 and then install it with executing
 
-`sudo apt install ./lenic_0.1_all.deb`
+`sudo apt install ./lenic_0.1.2-1_all.deb`
 
 Now it's installed. You maybe want to delete the deb-file with
 
-`rm lenic_0.1_all.deb`
+`rm lenic_0.1.2-1_all.deb`
 
 ## Usage
 
