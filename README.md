@@ -10,7 +10,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [ ] port Lenic to DASH - DASH is faster than BASH and with current features, there's no reason to use still BASH -- coming with version 0.2-1
 - [ ] outsource scripts to "/usr/lib/lenic/" ("/usr/bin/lenic" will be easier to read) -- coming with version 0.2-1
 - [ ] Upgrade your system to the next debian release, using just one command -- already as experimental feature available
-- [ ] integration of an TUI with whiptail
+- [ ] integration of an TUI with whiptail -- coming with 0.3-1
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
 
