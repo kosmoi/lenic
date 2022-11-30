@@ -1,0 +1,25 @@
+#!/bin/dash
+
+ANS1="$1"
+ANS2="$2"
+ANS3="$3"
+
+checkinput() {
+  if [ "$ANS1" = "help" ]; then
+    dash /usr/lib/lenic/help.sh
+  elif [ "$ANS1" = "install" ]; then
+    dash /usr/lib/lenic/install.sh "$ANS2" "ANS3"
+  elif [ "$ANS1" = "update" ]; then
+    dash /usr/lib/lenic/update.sh
+  elif [ "$ANS1" = "upgrade" ]; then
+    dash /usr/lib/lenic/upgrade.sh "$ANS2" "ANS3"
+  elif [ "$ANS1" = "debtemplate" ]; then
+    dash /usr/lib/lenic/debtemplate.sh "$ANS2" "ANS3"
+  elif [ "$ANS1" = "about" ]; then
+    dash /usr/lib/lenic/about.sh
+  else
+    echo "Try 'lenic help' for more information!"
+  fi	
+}
+
+checkinput
