@@ -13,7 +13,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [ ] Upgrade your system to the next debian release, using just one command -- already as experimental feature available
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
- -> no integration of an TUI with whiptail -- may better use on really small screens and in autostart files
+-> no integration of an TUI with whiptail -- may better use on really small screens and in autostart files
 
 ## Download
 ### Debian
