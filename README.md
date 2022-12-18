@@ -7,12 +7,13 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [x] Installing set of packages
 - [x] Update your system (get security updates and some others)
 - [x] create a template folder for building deb packages
-- [ ] port Lenic to DASH - DASH is faster than BASH and with current features, there's no reason to use still BASH -- coming with version 0.2-1
-- [ ] outsource scripts to "/usr/lib/lenic/" ("/usr/bin/lenic" will be easier to read) -- coming with version 0.2-1
+- [x] port Lenic to DASH - DASH is faster than BASH and with current features, there's no reason to use still BASH
+- [x] outsource scripts to "/usr/lib/lenic/" ("/usr/bin/lenic" will be easier to read)
+- [ ] write an shell script to install lenic more easily
 - [ ] Upgrade your system to the next debian release, using just one command -- already as experimental feature available
-- [ ] integration of an TUI with whiptail -- coming with 0.3-1
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
+ -> no integration of an TUI with whiptail -- may better use on really small screens and in autostart files
 
 ## Download
 ### Debian
