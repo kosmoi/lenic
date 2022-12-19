@@ -31,7 +31,7 @@ to download the install script
 
 to make it executable
 
-`dash install-debian.sh`
+`sudo dash install-debian.sh`
 
 to run the install script
 
