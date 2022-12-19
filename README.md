@@ -17,7 +17,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 
 ### Debian
 
-Download and installation works with a seperated shell script to make it easier to install lenic. For installation just execute following commands one after another:
+Download and installation works with a seperated shell script to make it easier to install lenic. To install the newest (stable) version of lenic, just execute following commands one after another:
 
 `sudo apt install wget -y`
 
@@ -38,8 +38,6 @@ to run the install script
 `rm install-debian.sh`
 
 to remove the install script, which isn't needed any more ;-)
-
-
 For using lenic simply type 'lenic' in your terminal.
 
 ## Information
