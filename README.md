@@ -7,33 +7,36 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [x] Installing set of packages
 - [x] Update your system (get security updates and some others)
 - [x] create a template folder for building deb packages
-- [x] port Lenic to DASH - DASH is faster than BASH and with current features, there's no reason to use still BASH
-- [x] outsource scripts to "/usr/lib/lenic/" ("/usr/bin/lenic" will be easier to read)
-- [ ] write an shell script to install lenic more easily
-- [ ] Upgrade your system to the next debian release, using just one command -- already as experimental feature available
+- [x] Ported to from bash to dash, which is faster and POSIX-comaptible
+- [x] outsourced functions to /usr/lib/lenic for better performance and better seperation
+- [ ] Upgrade your system to the next debian release, using just one command -- available as experimental feature
 - [ ] Changing settings of openbox (autostart, menu)
 - [ ] versions for other distros (LinuxMint, Ubuntu)
 
--> no integration of an TUI with whiptail -- may better use on really small screens and in autostart files
+## Install
 
-## Download
 ### Debian
 
-I recommend using the DEB-Version of Lenic.
-For installing the deb-version, first open a terminal and simply type these three commands one after another.
+Download and installation works with a seperated shell script to make it easier to install lenic. For installation just execute following commands one after another:
 
-First this one to download the deb-file:
+`sudo apt install wget -y`
+to install wget, when it's not installed on your system
 
-`wget http://kosmoi.github.io/lenic_0.1.2-1_all.deb`
+`wget kosmoi.github.io/install-debian.sh`
+to download the install script
 
-and then install it with executing
+`chmod a+x install-debian.sh`
+to make it executable
 
-`sudo apt install ./lenic_0.1.2-1_all.deb`
+`dash install-debian.sh`
+to run the install script
 
-Now it's installed. You maybe want to delete the deb-file with
+`rm install-debian.sh`
+to remove the install script, which isn't needed any more ;-)
 
-`rm lenic_0.1.2-1_all.deb`
+For using lenic simply type 'lenic' in your terminal.
 
-## Usage
+## Information
 
-Simply type 'lenic' in your terminal.
+Changelogs: 
+News and Announcements: 

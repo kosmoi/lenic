@@ -1,0 +1,11 @@
+[Desktop entry]
+Version=0.2-1
+Name=Lenic
+GenericName=Lenic
+Comment=Lenic tool for debian systems
+Exec=/usr/bin/lenic
+TryExec=/usr/bin/lenic
+Icon=/usr/share/icons/lenic-icon.png
+Terminal=true
+Type=Application
+Categories=Utility;

@@ -1,0 +1,12 @@
+Package: Lenic
+Version: 0.2-2
+Architecture: all
+Essential: no
+Prioty: optional
+Depends: dash
+Replaces: lenic
+Suggests: bash
+Maintainer: kosmoi <kosmoi.github.io>
+Homepage: http://kosmoi.github.io/lenic
+Website: http://github.com/kosmoi/lenic
+Description: Lenic is a tool writen in shell script, which helps you to handle a debian system more easily.
