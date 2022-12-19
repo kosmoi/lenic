@@ -1,5 +1,0 @@
-#!/bin/dash
-
-# postinstall scrift of lenic 0.2-1
-
-chmod a+rwx /usr/lib/lenic/
