@@ -38,7 +38,8 @@ to run the install script
 `rm install-debian.sh`
 
 to remove the install script, which isn't needed any more ;-)
-For using lenic simply type 'lenic' in your terminal.
+
+Type 'lenic' in your terminal to use Lenic.
 
 ## Information
 
