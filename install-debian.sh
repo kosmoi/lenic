@@ -9,9 +9,9 @@ apt remove lenic -y
 apt install dash wget -y
 # installation of lenic
 wget kosmoi.github.io/lenic-debian/lenic_0.2-2_all.deb
-apt install ./lenic-0.2-2-all.deb
+apt install ./lenic_0.2-2_all.deb
 # postinst
-rm lenic-0.2-2-all.deb
+rm lenic_0.2-2_all.deb
 chmod a+x /usr/bin/lenic
 chmod a+x /usr/lib/lenic/*.sh
 # information for the user
