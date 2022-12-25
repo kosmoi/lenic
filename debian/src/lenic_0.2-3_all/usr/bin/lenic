@@ -1,0 +1,22 @@
+#!/bin/dash
+# --- Lenic main file - Version [cat usr/lib/lenic/VERSION] ---
+
+if [ "$1" = "help" ]; then
+  dash /usr/lib/lenic/help.sh
+elif [ "$1" = "install" ]; then
+  dash /usr/lib/lenic/install.sh "$2" "$3"
+elif [ "$1" = "update" ]; then
+  dash /usr/lib/lenic/update.sh "$3"
+elif [ "$1" = "upgrade" ]; then
+  dash /usr/lib/lenic/upgrade.sh "$2" "$3"
+elif [ "$1" = "debtemplate" ]; then
+  dash /usr/lib/lenic/debtemplate.sh "$2" "$3"
+elif [ "$1" = "about" ]; then
+  dash /usr/lib/lenic/about.sh
+elif [ "$1" = "sysinfo" ]; then
+  dash /usr/lib/lenic/sysinfo.sh
+elif [ "$1" = "openbox" ]; then
+  dash /usr/lib/lenic/openbox.sh
+else
+  echo "Try 'lenic help' for more information!"
+fi
