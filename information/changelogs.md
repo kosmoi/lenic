@@ -1,6 +1,12 @@
 # Lenic Changelogs
 
-## Lenic 0.2-2
+## Lenic 0.2-3 (2022-12-25)
+
+- [x] New "sysinfo" and "openbox" function
+- [x] Upgrade function becomes non-experimental
+- [x] Changes at package configs: added package "apt" as dependence, removed "bash" as suggestion. Set "utils" as Section and "optional" as Priority.
+
+## Lenic 0.2-2 (2022-12-19)
 
 - [x] important bugfixes
 - [x] changes at install update and upgrade function because of root priviligdes
