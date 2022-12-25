@@ -9,35 +9,19 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [x] create a template folder for building deb packages
 - [x] Ported to from bash to dash, which is faster and POSIX-comaptible
 - [x] outsourced functions to /usr/lib/lenic for better performance and better seperation
-- [ ] Upgrade your system to the next debian release, using just one command -- available as experimental feature
-- [ ] Changing settings of openbox (autostart, menu)
+- [x] Upgrade your system to the next debian release -- still not perfect
+- [x] Changing settings of openbox (autostart, menu) -- still not perfect
 - [ ] versions for other distros (LinuxMint, Ubuntu)
 
 ## Install
 
 ### Debian
 
-Download and installation works with a seperated shell script to make it easier to install lenic. To install the newest (stable) version of lenic, just execute following commands one after another:
+Download and installation works with a seperated shell script to make it easier to install lenic. To install the newest (stable) version of lenic, just execute following command:
 
-`sudo apt install wget -y`
+`sudo apt install wget -y && sudo wget https://raw.githubusercontent.com/kosmoi/lenic/main/install-lenic-debian.sh && sudo chmod a+x install-lenic-debian.sh && sudo dash install-lenic-debian.sh && rm install-lenic-debian.sh`
 
-to install wget, when it's not installed on your system
-
-`wget kosmoi.github.io/install-debian.sh`
-
-to download the install script
-
-`chmod a+x install-debian.sh`
-
-to make it executable
-
-`sudo dash install-debian.sh`
-
-to run the install script
-
-`rm install-debian.sh`
-
-to remove the install script, which isn't needed any more ;-)
+The commands first installs "wget" on your system, then downloads a install script, makes it executable, executes it and removes the script. The installation script can be found at http://github.com/kosmoi/lenic/blob/main/install-lenic-debian.sh
 
 Type 'lenic' in your terminal to use Lenic.
 
