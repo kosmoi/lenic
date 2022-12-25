@@ -1,5 +1,11 @@
 # Lenic News
 
+## 2022-12-25
+
+One Day after christmas Eve, i'm happy to announce a new version of Lenicc: Lenic 0.2-3
+
+I wish everybody merry christmas. Especially to all people, who have to live in regions, where war takes place right now. War is maybe the most terrible thing on earth and everybody has to remember that those, who don't have the resposebilities for starting a war are those, who have the most consequences of it: the civilists.
+
 ## 2022-12-19 -- Release of Lenic 0.2-2 and announcement of christmas edition on 12-24
 
 New Lenic version out now. There are many improvements and finally a acceptable structure of the repo ;)
