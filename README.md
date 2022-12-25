@@ -19,7 +19,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 
 Download and installation works with a seperated shell script to make it easier to install lenic. To install the newest (stable) version of lenic, just execute following command:
 
-`sudo apt install wget -y && sudo wget https://raw.githubusercontent.com/kosmoi/lenic/main/install-lenic-debian.sh && sudo chmod a+x install-lenic-debian.sh && sudo dash install-lenic-debian.sh && rm install-lenic-debian.sh`
+`sudo apt install wget -y && sudo wget https://raw.githubusercontent.com/kosmoi/lenic/main/install-lenic-debian.sh && sudo chmod a+x install-lenic debian.sh && sudo dash install-lenic-debian.sh && rm install-lenic-debian.sh -y`
 
 The commands first installs "wget" on your system, then downloads a install script, makes it executable, executes it and removes the script. The installation script can be found at http://github.com/kosmoi/lenic/blob/main/install-lenic-debian.sh
 
