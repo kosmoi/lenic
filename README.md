@@ -11,6 +11,8 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [x] outsourced functions to /usr/lib/lenic for better performance and better seperation
 - [x] Upgrade your system to the next debian release -- still not perfect
 - [x] Changing settings of openbox (autostart, menu) -- still not perfect
+- [ ] Add GUI with Tkinter in python (packages "python3" and "python3-tk")
+Not in focus:
 - [ ] versions for other distros (LinuxMint, Ubuntu)
 
 ## Install
