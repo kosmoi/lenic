@@ -5,7 +5,7 @@ CURRUSER=$(whoami)
 
 if [ "$CURRUSER" = "root" ]; then
 # preinst
-apt remove lenic -y
+apt purge lenic -y
 apt install dash wget -y
 # installation of lenic
 wget https://raw.githubusercontent.com/kosmoi/lenic/main/debian/deb/lenic_0.2-3_all.deb
