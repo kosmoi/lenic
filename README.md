@@ -12,6 +12,7 @@ Lenic, which stands for "little executable nonsence interactive console" is a co
 - [x] Upgrade your system to the next debian release -- still not perfect
 - [x] Changing settings of openbox (autostart, menu) -- still not perfect
 - [ ] make a function for apt purge --autoremove
+
 Not in focus:
 
 - [ ] versions for other distros (LinuxMint, Ubuntu)
